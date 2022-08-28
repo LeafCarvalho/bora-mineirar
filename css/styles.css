@@ -23,14 +23,18 @@ body {
   flex-wrap: wrap;
 }
 .container .box {
-  width: 50%;
+  position: relative;
+  max-width: 50%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
   overflow: hidden;
   transition: 0.5s;
 }
-
-.container .box .imgBx img{
+.container .box .imgBx img {
+  opacity: 1;
   width: 100%;
-  padding-bottom: 5px;
+  height: 100%;
 }
 .container .box:hover {
   z-index: 1;
@@ -63,6 +67,7 @@ body {
   z-index: 2;
   display: flex;
   padding: 5px;
+  margin-left: 5px;
   align-items: flex-end;
 }
 .container .box .content h2 {
