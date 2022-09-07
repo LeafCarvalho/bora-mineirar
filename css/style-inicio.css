@@ -331,16 +331,24 @@ main {
 	margin-right: 3px;
 	margin-bottom: 5px;
 }
+/* RESPONSIVITY */
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width:850px) {
   body {
     overflow-x: hidden;
   }
   .container .box {
     flex-direction: column;
+    max-width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
   }
   .container .box .imgBx img{
     width: 100%;
+    display: block;
   }
   .nav-list {
     position: absolute;
@@ -362,16 +370,13 @@ main {
   .mobile-menu {
     display: block;
   }
-}
 
-@media (max-width: 880px) {
-
-	.footer-distributed .footer-left,
+  .footer-distributed .footer-left,
 	.footer-distributed .footer-center,
 	.footer-distributed .footer-right{
 		display: block;
 		width: 100%;
-		margin-bottom: 40px;
+		margin-bottom: 42px;
 		text-align: center;
 	}
 
@@ -379,4 +384,8 @@ main {
 		margin-left: 0;
 	}
 
+  .footer-links{
+    letter-spacing: 3px;
+    word-spacing: 12px;
+  }
 }
