@@ -28,6 +28,10 @@ html::-webkit-scrollbar-track {
   background-color: rgb(200, 255, 117);
 }
 
+body {
+  background-color: #00ff37;
+}
+
 
 
 
@@ -189,9 +193,11 @@ main {
 }
 .container .box .content p {
   color: #fff;
+  text-align: justify;
   font-weight: 400;
   transform: translateY(250px);
   transition: 0.5s;
+  width: 98%;
   font-size: 18px;
 }
 .container .box:hover .content p {
