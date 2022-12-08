@@ -8,4 +8,4 @@
  Reponsividade, Navegação entre menus, estruturação de código.
  
  # Pendências:
- Aplicar o DRY
+ - [ ] Aplicar o DRY
