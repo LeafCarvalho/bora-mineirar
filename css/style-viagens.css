@@ -192,7 +192,7 @@ main {
   text-transform: uppercase;
   margin-bottom: 5px;
   font-size: 22px;
-  transform: translateY(250px);
+  transform: translateY(350px);
 }
 .container .box:hover .content h2 {
   transform: translateY(0);
@@ -202,7 +202,7 @@ main {
   color: #fff;
   text-align: justify;
   font-weight: 400;
-  transform: translateY(250px);
+  transform: translateY(350px);
   transition: 0.5s;
   width: 98%;
   font-size: 18px;
