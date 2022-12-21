@@ -168,9 +168,7 @@ main {
 .container .box:hover .imgBx:before {
   opacity: 1;
 }
-.container .box .imgBx img{
-  object-fit: cover;
-}
+
 .container .box:hover .imgBx img{
   filter: blur(2px);
 }

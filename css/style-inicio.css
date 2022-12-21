@@ -169,7 +169,7 @@
   text-align: center;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
-  max-width: 100%;
+  width: 100%;
   margin: 80px 250px 80px 250px;
 }
 
@@ -308,7 +308,7 @@
 
 @media only screen and (min-width:1350px) {
   .content {
-    margin: 180px 500px 180px 500px
+    margin: 180px 500px 180px 500px;
   }
 
   .content-part h1 {
